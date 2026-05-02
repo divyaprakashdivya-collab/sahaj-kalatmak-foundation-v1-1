@@ -1,27 +1,21 @@
 # Sahaj Kalatmak Foundation Website
 
-Static GitHub Pages website for Sahaj Kalatmak Foundation.
+This is a modular static website project prepared for GitHub Pages.
 
 ## Structure
+- `index.html` — main landing page
+- `assets/css/variables.css` — color tokens and theme variables
+- `assets/css/style.css` — primary styling
+- `assets/css/responsive.css` — responsive rules
+- `assets/js/main.js` — light enhancement script
+- `assets/images/` — organized visual assets
 
-- `index.html` — premium homepage and navigation hub
-- `people.html` — full people page
-- `events.html` — events preview page
-- `media.html` — media/documentation page
-- `assets/css/` — shared styles
-- `assets/js/main.js` — shared interactions
-- `assets/images/people/` — profile images
+## Next recommended updates
+1. Replace placeholder phone number.
+2. Replace temporary Facebook, YouTube, and Twitter links.
+3. Replace hero/event/media placeholder images with your real images.
+4. Add dedicated inner pages if needed later.
 
-## Launch
-
-Upload all files to a GitHub repository and enable GitHub Pages from the main branch.
-
-## Image naming
-
-People images use:
-
-- `peopleImage1.png` — Arun Shekhar
-- `peopleImage2.png` — Shaurya Singh
-- `peopleImage3.png` — Divya Prakash
-- `peopleImage4.png` — Jagdish Nishad
-- `peopleImage5.png` — Sriprakash Menon
+## GitHub Pages
+Upload this whole folder to a public repository, then enable Pages from:
+Settings → Pages → Deploy from Branch → main → /root
